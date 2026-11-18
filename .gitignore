@@ -1,0 +1,5 @@
+# Project data is tracked with DVC, not Git
+/data/*.csv
+/data/raw/*.csv
+/.dvc/cache/
+/.dvc/tmp/
