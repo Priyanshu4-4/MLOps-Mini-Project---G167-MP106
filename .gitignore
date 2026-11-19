@@ -4,3 +4,7 @@
 /.dvc/cache/
 /.dvc/tmp/
 .DS_Store
+
+__pycache__/
+data/processed/
+.venv/

@@ -1,0 +1,53 @@
+group_id: G167
+problem_id: MP106
+data_issues:
+  leaking_column:
+    present: true
+    column: litres_paid_in_passbook
+  unit_mixup:
+    present: true
+    column: fodder_price_rs
+    group_value: Cluster B
+    factor: 100
+  sentinel_value:
+    present: false
+    column: null
+    value: null
+    count: null
+  duplicate_rows:
+    present: true
+    count: 25
+  stuck_sensor:
+    present: false
+    column: null
+    start_date: null
+    end_date: null
+  target_typos:
+    present: true
+    count: 8
+  spelling_variants:
+    present: false
+    column: null
+    true_levels: null
+tracking:
+  experiment_name: null
+  best_run_id: null
+  registered_model_name: null
+  champion_version: null
+monitoring:
+  psi:
+    cows: null
+    buffaloes: null
+    fodder_price_rs: null
+    temp_c: null
+    vet_visits: null
+    feed_kg: null
+  most_drifted_feature: null
+  mae_by_group:
+    Cluster A: null
+    Cluster B: null
+    Cluster C: null
+  worst_served_group: null
+  mae_v1_on_check: null
+  mae_v2_on_check: null
+  decision: null

@@ -1,0 +1,12 @@
+data:
+  train_path: data/raw/train.csv
+  later_path: data/raw/later.csv
+  holdout_path: data/raw/holdout_features.csv
+  clean_path: data/processed/train_clean.csv
+  findings_path: reports/findings.yaml
+target: litres_per_day
+group_col: village_cluster
+checks:
+  sentinel_candidates: [-1, -999, 999, 9999, -9999]
+  stuck_min_run: 5
+  typo_factor: 10
