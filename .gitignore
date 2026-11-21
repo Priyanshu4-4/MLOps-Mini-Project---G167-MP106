@@ -10,3 +10,5 @@ data/processed/
 .venv/
 !/data/raw/holdout_features.csv
 /mlruns
+# Python packaging
+*.egg-info/
