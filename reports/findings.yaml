@@ -30,10 +30,10 @@ data_issues:
     column: null
     true_levels: null
 tracking:
-  experiment_name: null
-  best_run_id: null
-  registered_model_name: null
-  champion_version: null
+  experiment_name: MP106 Milk Collection
+  best_run_id: ceae9c5e7bb14c6ebcc6d317172d68bc
+  registered_model_name: mp106_milk_collection
+  champion_version: 1
 monitoring:
   psi:
     cows: null

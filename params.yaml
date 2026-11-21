@@ -1,7 +1,7 @@
 data:
   train_path: data/raw/train.csv
   later_path: data/raw/later.csv
-  holdout_path: data/raw/holdout_features.csv
+  holdout_path: data/holdout_features.csv
   clean_path: data/processed/train_clean.csv
   findings_path: reports/findings.yaml
 target: litres_per_day
@@ -10,3 +10,26 @@ checks:
   sentinel_candidates: [-1, -999, 999, 9999, -9999]
   stuck_min_run: 5
   typo_factor: 10
+
+model:
+  experiment_name: MP106 Milk Collection
+  registered_model_name: mp106_milk_collection
+  validation_size: 0.2
+  random_state: 42
+  numeric_features:
+    - cows
+    - buffaloes
+    - fodder_price_rs
+    - temp_c
+    - vet_visits
+    - feed_kg
+  categorical_features:
+    - breed_mix
+    - village_cluster
+  candidates:
+    - n_estimators: 100
+      max_depth: 6
+    - n_estimators: 200
+      max_depth: 10
+    - n_estimators: 200
+      max_depth: null
