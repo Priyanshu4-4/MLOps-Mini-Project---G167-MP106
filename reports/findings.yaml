@@ -31,7 +31,7 @@ data_issues:
     true_levels: null
 tracking:
   experiment_name: MP106 Milk Collection
-  best_run_id: ceae9c5e7bb14c6ebcc6d317172d68bc
+  best_run_id: 4ef399d622444391aa2db6e499147899
   registered_model_name: mp106_milk_collection
   champion_version: 2
 monitoring:
