@@ -33,7 +33,7 @@ tracking:
   experiment_name: MP106 Milk Collection
   best_run_id: ceae9c5e7bb14c6ebcc6d317172d68bc
   registered_model_name: mp106_milk_collection
-  champion_version: 1
+  champion_version: 2
 monitoring:
   psi:
     cows: null
@@ -44,10 +44,10 @@ monitoring:
     feed_kg: null
   most_drifted_feature: null
   mae_by_group:
-    Cluster A: null
-    Cluster B: null
-    Cluster C: null
+    'Cluster A': null
+    'Cluster B': null
+    'Cluster C': null
   worst_served_group: null
-  mae_v1_on_check: null
-  mae_v2_on_check: null
-  decision: null
+  mae_v1_on_check: 180.473589
+  mae_v2_on_check: 84.339394
+  decision: promote
