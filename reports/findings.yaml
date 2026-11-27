@@ -36,18 +36,18 @@ tracking:
   champion_version: 2
 monitoring:
   psi:
-    cows: null
-    buffaloes: null
-    fodder_price_rs: null
-    temp_c: null
-    vet_visits: null
-    feed_kg: null
-  most_drifted_feature: null
+    cows: 5.511477
+    buffaloes: 0.104202
+    fodder_price_rs: 0.079167
+    temp_c: 0.038765
+    vet_visits: 0.114719
+    feed_kg: 0.057401
+  most_drifted_feature: cows
   mae_by_group:
-    'Cluster A': null
-    'Cluster B': null
-    'Cluster C': null
-  worst_served_group: null
+    Cluster A: 354.051008
+    Cluster B: 98.851481
+    Cluster C: 88.797401
+  worst_served_group: Cluster A
   mae_v1_on_check: 180.473589
   mae_v2_on_check: 84.339394
   decision: promote
