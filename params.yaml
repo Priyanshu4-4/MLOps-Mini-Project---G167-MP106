@@ -1,7 +1,7 @@
 data:
   train_path: data/raw/train.csv
   later_path: data/raw/later.csv
-  holdout_path: data/holdout_features.csv
+  holdout_path: data/raw/holdout_features.csv
   clean_path: data/processed/train_clean.csv
   findings_path: reports/findings.yaml
 target: litres_per_day
